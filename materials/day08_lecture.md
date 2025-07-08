@@ -160,7 +160,7 @@ result = classifier("I love using pre-trained models!")
 
 ---
 
-### 🧠 5. Audio and Time Series (15 min)
+### 🧠 5. Audio (15 min)
 
 **Tasks**:
 - Audio classification
@@ -168,19 +168,11 @@ result = classifier("I love using pre-trained models!")
 - Forecasting
 
 📌 _Demo 16_: audio classification (`speechbrain`, `torchaudio`)  
-📌 _Demo 17_: Wav2Vec2 (speech-to-text)  
-📌 _Demo 18_: time series (`nixtla`, `gluonts`)
+📌 _Demo 17_: https://huggingface.co/openai/whisper-small (speech-to-text)  
 
 🧩 Limitations:
 - Noise, accents, frequency
 - Few pre-trained models available
-
----
-
-### 🧠 6. Graph ML (5 min)
-
-📌 _Demo 19_: GCN on Cora (with PyG)  
-🧩 Limitations: poor scalability, require graph preparation
 
 ---
 
@@ -196,6 +188,7 @@ result = classifier("I love using pre-trained models!")
 🛑 Don't work:
 - Tabular ML tasks (like XGBoost)  
 - Specific metrics/formulas/business logic
+- Graphs
 
 🟡 Partially work:
 - Tabular: `TabPFN`, `AutoGluon`  

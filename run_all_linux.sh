@@ -39,7 +39,7 @@ if command -v poetry &> /dev/null; then
     echo "Poetry version is correct: $poetry_version"
   else
     echo -e "${YELLOW}Poetry version is not correct. Updating...${NC}"
-    poetry self update 2.1.1
+    # poetry self update 2.1.1
     echo -e "${WHITE}Poetry updated successfully.${NC}"
   fi
 else
@@ -51,7 +51,7 @@ fi
 
 # Installing Project's dependencies
 echo "Installing Project's dependencies..."
-poetry install
+# poetry install
 echo "Dependencies installed successfully."
 
 

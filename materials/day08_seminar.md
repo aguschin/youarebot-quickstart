@@ -49,16 +49,6 @@ Classify by entailment probability
 
 ---
 
- 
-
-### 14  ―  Multimodal Defence with CLIP
-
-* CLIP maps avatar image ↔ text bio in same vector space   
-* Inconsistent avatar/text pair → likely bot or catfish
-* Plug‑in signal: (1–cos  sim) >  0.4 ⇒ flag
-
----
-
 ### 15  ―  PEFT Landscape
 
 | Method                       | Trainable  params | Extra latency | Typical memory |

@@ -52,7 +52,7 @@ fi
 
 # Installing Project's dependencies
 echo "Installing Project's dependencies..."
-poetry install
+# poetry install
 echo "Dependencies installed successfully."
 
 
